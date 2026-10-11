@@ -1,0 +1,91 @@
+
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #212529;
+}
+
+/* Main heading */
+h1 {
+    color: #24476b;
+    font-weight: bold;
+}
+
+/* Form sections */
+.form-section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.form-section h2 {
+    color: #24476b;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form labels */
+.form-label {
+    font-weight: 600;
+}
+
+/* Input fields */
+.form-control,
+.form-select {
+    padding: 10px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #527da7;
+    box-shadow: 0 0 0 0.2rem rgba(36, 71, 107, 0.15);
+}
+
+/* Submit buttons */
+.btn-primary {
+    background-color: #24476b;
+    border-color: #24476b;
+}
+
+.btn-primary:hover {
+    background-color: #19334e;
+    border-color: #19334e;
+}
+
+/* Form status messages */
+.form-status {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.form-status.success {
+    color: #198754;
+}
+
+.form-status.error {
+    color: #dc3545;
+}
+
+/* Gender validation feedback */
+#genderError {
+    display: none;
+}
+
+/* Mobile responsive design */
+@media (max-width: 576px) {
+    .form-section {
+        padding: 18px;
+    }
+
+    .form-section h2 {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+}
