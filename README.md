@@ -1,127 +1,80 @@
-# Assignment 4 – Forms and Validation
+# Assignment 4: Forms and Validation
 
 ## Student Information
-
-- **Student Name:** Matiullah Zaman
+- **Name:** Matiullah Zaman
 - **Group:** IT-2501
-- **Course:** Web Development
-- **Assignment:** Assignment 4 – Forms and Validation
+- **Assignment:** Forms and Validation
 
 ## Project Description
-
-This project demonstrates how to create and style HTML forms using HTML5, CSS3, and Bootstrap 5.3.3. It includes five tasks covering basic forms, HTML5 validation, Bootstrap form styling, validation feedback, and a registration form.
+This project demonstrates how to create HTML forms, use HTML5 built-in validation, style forms with Bootstrap, and display validation feedback. It includes five tasks covering basic forms, validation, Bootstrap styling, and a registration form.
 
 ## Technologies Used
-
 - HTML5
 - CSS3
 - Bootstrap 5.3.3
-- Responsive Web Design
+- JavaScript
 
 ## Task 0: Basic Contact Form
-
-Created a simple contact form using HTML. The form includes Name, Email, and Message fields, along with Submit and Reset buttons.
+Created a basic contact form with Name, Email, Message, and Submit fields. Each field has a proper label.
 
 ### Screenshot
+Add your Task 0 screenshot here.
 
-
-(<img width="1429" height="781" alt="Screenshot 2026-10-11 172217" src="https://github.com/user-attachments/assets/d2f48b3a-2962-4b18-a43a-48c3979f2d5b" />
+(<img width="1919" height="788" alt="Screenshot 2026-10-13 150828" src="https://github.com/user-attachments/assets/871b86b0-175d-4d57-a3d1-ec5797c7a54b" />
 )
 
-## Task 1: HTML5 Validation
-
-Created a form using HTML5 validation attributes. It includes Name, Email, and Password fields. The required attributes, email format validation, and minimum password length help validate user input.
+## Task 1: HTML5 Built-in Validation
+Added HTML5 validation attributes, including `required`, `type="email"`, and length limits, to validate user input.
 
 ### Screenshot
+Add your Task 1 screenshot here.
 
-
-(<img width="1387" height="819" alt="Screenshot 2026-10-11 172235" src="https://github.com/user-attachments/assets/960ab7e6-a5f0-4d54-86bd-a723279f861a" />
+!(<img width="1899" height="706" alt="Screenshot 2026-10-13 150840" src="https://github.com/user-attachments/assets/060300c0-b5df-411b-abb4-927599a8cc82" />
 )
 
 ## Task 2: Bootstrap Form Styling
-
-Used Bootstrap form components and a responsive grid layout. The form includes First Name, Last Name, Email, and Message fields, with labels, helpful text, and Submit and Reset buttons.
+Used Bootstrap form classes and the grid system to style the form. Added placeholders and helper text to improve usability and responsiveness.
 
 ### Screenshot
+Add your Task 2 screenshot here.
 
-
-(<img width="1692" height="900" alt="Screenshot 2026-10-11 172330" src="https://github.com/user-attachments/assets/e15e2c5c-b122-41db-bc47-c5e5bb6f6ba4" />
+![(<img width="1897" height="761" alt="Screenshot 2026-10-13 150858" src="https://github.com/user-attachments/assets/41963497-5f28-400a-8eb7-1064d0150349" />
 )
 
-## Task 3: Bootstrap Validation Feedback
-
-Added validation feedback messages and custom CSS styling for form fields. The form includes success and error messages, with different border colors for valid and invalid input.
+## Task 3: Bootstrap Validation Styles
+Used Bootstrap validation classes, including `is-valid` and `is-invalid`, with feedback messages to show valid and invalid input states. JavaScript applies validation styles when the form is submitted.
 
 ### Screenshot
+Add your Task 3 screenshot here.
 
-
-(<img width="1348" height="892" alt="Screenshot 2026-10-11 172345" src="https://github.com/user-attachments/assets/62067163-eb34-4860-b991-f98387239d4d" />
+![<img width="1883" height="748" alt="Screenshot 2026-10-13 150911" src="https://github.com/user-attachments/assets/2b1edbdb-599d-47b4-900f-3b8cd72ae0da" />
 )
 
 ## Task 4: Registration Form
-
-Created a registration form with the following fields:
-
-- First Name
-- Last Name
+Created a responsive registration form containing:
+- First Name and Last Name
 - Email
-- Password
-- Confirm Password
-- Gender selection using radio buttons
-- Hobbies selection using checkboxes
-- Country selection using a dropdown menu
+- Password and Confirm Password
+- Gender radio buttons
+- Hobbies checkboxes
+- Country selection
 - Register and Reset buttons
 
-The form uses HTML5 validation attributes and Bootstrap form components.
+Added HTML5 validation, Bootstrap validation feedback, and JavaScript password confirmation checking.
 
 ### Screenshot
+Add your Task 4 screenshot here.
 
+![(<img width="1919" height="1009" alt="Screenshot 2026-10-13 150924" src="https://github.com/user-attachments/assets/a42b485a-7d8b-4531-8810-3572f1cbbb44" />
+)
 
-(<img width="1383" height="890" alt="Screenshot 2026-10-11 172357" src="https://github.com/user-attachments/assets/95311c88-f1f0-4675-9d86-b9db9e344d2f" />
+## Summary
+In this assignment, I practiced creating HTML forms, applying HTML5 validation, styling forms with Bootstrap, using responsive grid layouts, and displaying validation feedback with JavaScript.
 
+## How to Run
+1. Keep `index.html`, `style.css`, and `script.js` in the same project folder.
+2. Open `index.html` in a web browser.
+3. Make sure you have an internet connection so Bootstrap can load from its CDN.
 
-)<img width="1834" height="931" alt="Screenshot 2026-10-11 172413" src="https://github.com/user-attachments/assets/ddead48e-d82f-46eb-bfd1-454957f490cd" />
-
-
-## Features
-
-- Five different form examples
-- HTML5 form validation
-- Bootstrap form components and responsive grid
-- Custom CSS styling
-- Success and error feedback messages
-- Radio buttons, checkboxes, and dropdown menus
-- Responsive design for smaller screens
-- Consistent header, footer, colors, and spacing
-
-## Project Structure
-
-```text
-Assignment-4/
-├── index.html
-├── style.css
-├── README.md
-└── screenshots/
-    ├── task0.png
-    ├── task1.png
-    ├── task2.png
-    ├── task3.png
-    └── task4.png
-```
-
-## How to Run the Project
-
-1. Download or clone the repository.
-2. Open the project folder in Visual Studio Code.
-3. Open `index.html` in a web browser.
-4. Test the forms using the provided input fields and buttons.
-
-## Author
-
-**Matiullah Zaman**
-
-**Group:** IT-2501
-
-## Conclusion
-
-This assignment helped me practice creating HTML forms, using HTML5 validation, applying Bootstrap components, and styling responsive web pages with CSS.
+## Submission
+Upload all project files, including the HTML, CSS, JavaScript, README, and screenshots, to your public GitHub repository. Test the project in your browser before submission and prepare to explain your work during the assignment defence.
